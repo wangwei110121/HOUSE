@@ -1,5 +1,6 @@
 package com.mooc.house.controller;
 
+import com.google.common.collect.Lists;
 import com.mooc.house.common.model.User;
 import com.mooc.house.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
