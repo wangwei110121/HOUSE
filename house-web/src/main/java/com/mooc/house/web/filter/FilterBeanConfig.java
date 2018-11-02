@@ -19,6 +19,7 @@ public class FilterBeanConfig {
     @Bean
     public FilterRegistrationBean logFilter(){
         FilterRegistrationBean filterRegistrationBean = new FilterRegistrationBean();
+        //test
         filterRegistrationBean.setFilter(new LogFilter());
         List<String> list = new ArrayList<String>();
         list.add("*");
